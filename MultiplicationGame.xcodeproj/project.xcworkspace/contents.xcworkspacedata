@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TimesCar.xcodeproj">
+      location = "self:/Users/nickwen/Desktop/ios/Mine/MultiplicationGame/MultiplicationGame.xcodeproj">
    </FileRef>
 </Workspace>

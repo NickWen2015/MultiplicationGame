@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BA1C657217991AE00B2CEDD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA1C656217991AE00B2CEDD /* Question.swift */; };
 		9BF01FE12178FA1B009EC10A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF01FE02178FA1B009EC10A /* AppDelegate.swift */; };
 		9BF01FE32178FA1B009EC10A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF01FE22178FA1B009EC10A /* ViewController.swift */; };
 		9BF01FE62178FA1B009EC10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF01FE42178FA1B009EC10A /* Main.storyboard */; };
@@ -15,7 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9BF01FDD2178FA1B009EC10A /* TimesCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimesCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA1C656217991AE00B2CEDD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		9BF01FDD2178FA1B009EC10A /* MultiplicationGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplicationGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF01FE02178FA1B009EC10A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BF01FE22178FA1B009EC10A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BF01FE52178FA1B009EC10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +40,7 @@
 		9BF01FD42178FA1B009EC10A = {
 			isa = PBXGroup;
 			children = (
-				9BF01FDF2178FA1B009EC10A /* TimesCar */,
+				9BF01FDF2178FA1B009EC10A /* MultiplicationGame */,
 				9BF01FDE2178FA1B009EC10A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +48,31 @@
 		9BF01FDE2178FA1B009EC10A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9BF01FDD2178FA1B009EC10A /* TimesCar.app */,
+				9BF01FDD2178FA1B009EC10A /* MultiplicationGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9BF01FDF2178FA1B009EC10A /* TimesCar */ = {
+		9BF01FDF2178FA1B009EC10A /* MultiplicationGame */ = {
 			isa = PBXGroup;
 			children = (
 				9BF01FE02178FA1B009EC10A /* AppDelegate.swift */,
 				9BF01FE22178FA1B009EC10A /* ViewController.swift */,
+				9BA1C656217991AE00B2CEDD /* Question.swift */,
 				9BF01FE42178FA1B009EC10A /* Main.storyboard */,
 				9BF01FE72178FA1C009EC10A /* Assets.xcassets */,
 				9BF01FE92178FA1C009EC10A /* LaunchScreen.storyboard */,
 				9BF01FEC2178FA1C009EC10A /* Info.plist */,
 			);
-			path = TimesCar;
+			path = MultiplicationGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9BF01FDC2178FA1B009EC10A /* TimesCar */ = {
+		9BF01FDC2178FA1B009EC10A /* MultiplicationGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BF01FEF2178FA1C009EC10A /* Build configuration list for PBXNativeTarget "TimesCar" */;
+			buildConfigurationList = 9BF01FEF2178FA1C009EC10A /* Build configuration list for PBXNativeTarget "MultiplicationGame" */;
 			buildPhases = (
 				9BF01FD92178FA1B009EC10A /* Sources */,
 				9BF01FDA2178FA1B009EC10A /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = TimesCar;
+			name = MultiplicationGame;
 			productName = TimesCar;
-			productReference = 9BF01FDD2178FA1B009EC10A /* TimesCar.app */;
+			productReference = 9BF01FDD2178FA1B009EC10A /* MultiplicationGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9BF01FD82178FA1B009EC10A /* Build configuration list for PBXProject "TimesCar" */;
+			buildConfigurationList = 9BF01FD82178FA1B009EC10A /* Build configuration list for PBXProject "MultiplicationGame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9BF01FDC2178FA1B009EC10A /* TimesCar */,
+				9BF01FDC2178FA1B009EC10A /* MultiplicationGame */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA1C657217991AE00B2CEDD /* Question.swift in Sources */,
 				9BF01FE32178FA1B009EC10A /* ViewController.swift in Sources */,
 				9BF01FE12178FA1B009EC10A /* AppDelegate.swift in Sources */,
 			);
@@ -283,15 +287,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TimesCar/Info.plist;
+				DEVELOPMENT_TEAM = U963G6UMBK;
+				INFOPLIST_FILE = MultiplicationGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.TimesCar;
+				PRODUCT_BUNDLE_IDENTIFIER = nicklucy.studio.MultiplicationGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,22 +305,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TimesCar/Info.plist;
+				DEVELOPMENT_TEAM = U963G6UMBK;
+				INFOPLIST_FILE = MultiplicationGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.peter.TimesCar;
+				PRODUCT_BUNDLE_IDENTIFIER = nicklucy.studio.MultiplicationGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BF01FD82178FA1B009EC10A /* Build configuration list for PBXProject "TimesCar" */ = {
+		9BF01FD82178FA1B009EC10A /* Build configuration list for PBXProject "MultiplicationGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BF01FED2178FA1C009EC10A /* Debug */,
@@ -324,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BF01FEF2178FA1C009EC10A /* Build configuration list for PBXNativeTarget "TimesCar" */ = {
+		9BF01FEF2178FA1C009EC10A /* Build configuration list for PBXNativeTarget "MultiplicationGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BF01FF02178FA1C009EC10A /* Debug */,
